@@ -1,0 +1,6 @@
+{
+  "version": "v2.1.7",
+  "archive_sha256": "3ce7da770f546a8d02b65b2e7ee31f2a3b8b7c3f990ede045590cca4172ecfe1",
+  "executable_sha256": "cd9aea20afda2b9bdba5aff2e6ac964ed5c2e741ed4ceb48ad9e1be096ca7891",
+  "source": "https://github.com/syncthing/syncthing/releases/download/v2.1.7/syncthing-windows-amd64-v2.1.7.zip"
+}

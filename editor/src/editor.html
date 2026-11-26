@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:;">
+<style>
+:root {color-scheme:light dark; --paper:#fff;--ink:#263c37;--muted:#75847e;--accent:#27766c;--code:#eff4f0;}
+@media(prefers-color-scheme:dark){:root{--paper:#18211e;--ink:#dae7df;--muted:#91a79b;--accent:#8ed1b9;--code:#22312a;}}
+html,body{height:100%;margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,'Microsoft YaHei',sans-serif;}
+.cm-editor{min-height:100%;font-size:16px;line-height:1.9;outline:none!important;}
+#editor .cm-content{width:100%;max-width:780px;min-width:0;flex:0 1 780px;margin:0 auto;padding:30px 0 120px;box-sizing:border-box;caret-color:var(--accent);}
+body{--editor-inset:24px}body[data-margins="false"]{--editor-inset:0px}
+body[data-margins="false"] #editor .cm-content{max-width:none;flex:1 1 auto;}
+.cm-focused{outline:none!important}#editor .cm-line{padding:0 var(--editor-inset)}.cm-scroller{overflow:auto}
+.cm-cursor{border-left-color:var(--accent)}.cm-selectionBackground{background:#9ac9b050!important}
+.qj-h1{font-size:1.9em;font-weight:750;line-height:1.5;margin:0;}
+.qj-h2{font-size:1.5em;font-weight:720;margin:0}.qj-h3{font-size:1.2em;font-weight:680;margin:0}
+#editor .cm-line.qj-h1{padding-top:20px;padding-bottom:12px}
+#editor .cm-line.qj-h2{padding-top:18px;padding-bottom:8px}
+#editor .cm-line.qj-h3{padding-top:12px}
+.qj-strong{font-weight:700}.qj-em{font-style:italic}.qj-code{font-family:monospace;background:var(--code);border-radius:4px;padding:1px 3px}
+.qj-quote{border-left:3px solid var(--accent);padding-left:calc(var(--editor-inset) + 14px)!important;color:var(--muted)}
+.qj-link{color:var(--accent);text-decoration:underline}.qj-rule{border-bottom:1px solid var(--muted);opacity:.4}
+.qj-preview-image{display:block;max-width:100%;max-height:360px;border-radius:8px;margin:8px 0}
+#loading{padding:32px;color:var(--muted)}
+</style></head><body><div id="loading">正在打开文档…</div><div id="editor"></div><script>/*LEAFMESH_EDITOR_BUNDLE*/</script></body></html>
